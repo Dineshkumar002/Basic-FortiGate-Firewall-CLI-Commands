@@ -1,8 +1,8 @@
 # FortiGate IP Address Check Commands
 
-# Check All Interface IPs
+### Check All Interface IPs
 
-```bash
+```
 get system interface
 ```
 
