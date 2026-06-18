@@ -15,7 +15,7 @@ show system interface
 
 ### Check Specific Interface IP
 
-Example for `port1`:
+Example for `port1`
 
 ```bash
 show system interface port1
