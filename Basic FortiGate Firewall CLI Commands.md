@@ -1,4 +1,4 @@
-## Basic FortiGate Firewall CLI Commands
+## *Basic FortiGate Firewall CLI Commands*
 
 ### System Information
 
