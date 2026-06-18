@@ -5,7 +5,7 @@
 
 ```bash
 get system interface
-
+```
 
 ### Show Detailed Interface Configuration
 
