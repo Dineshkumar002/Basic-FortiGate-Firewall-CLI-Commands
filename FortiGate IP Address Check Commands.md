@@ -1,4 +1,4 @@
-### FortiGate IP Address Check Commands
+# FortiGate IP Address Check Commands
 
 ### Check All Interface IPs
 
