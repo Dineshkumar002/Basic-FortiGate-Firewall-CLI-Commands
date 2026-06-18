@@ -2,9 +2,9 @@
 
 ### Check All Interface IPs
 
-```
+
 get system interface
-```
+
 
 ### Show Detailed Interface Configuration
 
