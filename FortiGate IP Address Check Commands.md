@@ -3,6 +3,7 @@
 ### Check All Interface IPs
 
 
+```bash
 get system interface
 
 
