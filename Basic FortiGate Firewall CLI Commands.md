@@ -300,6 +300,24 @@ diagnose firewall auth list
 diagnose sys session stat
 ```
 
+## CLI Navigation Commands
+| Command                   | Description                           |
+| ------------------------- | ------------------------------------- |
+| `show`                    | Displays current configuration        |
+| `show full-configuration` | Displays complete configuration       |
+| `get`                     | Displays runtime information          |
+| `tree`                    | Shows command hierarchy               |
+| `?`                       | Displays available commands           |
+| `abort`                   | Cancels current configuration changes |
+
+## Notes
+- 'config' → enters configuration section
+- 'edit' → selects object or creates new object
+- 'set' → changes values
+- 'next' → saves current object
+- 'end' → exits configuration mode
+
+
 ---
 
 ## Official Documentation
