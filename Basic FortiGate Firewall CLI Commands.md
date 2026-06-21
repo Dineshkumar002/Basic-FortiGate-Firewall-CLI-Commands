@@ -6,6 +6,7 @@
 get system status
 get hardware status
 get system performance status
+
 ```
 
 ### Check Interface IPs
@@ -219,12 +220,15 @@ execute log filter category 0
 execute log display
 ```
 
-## Debug Flow
+## Log & Debug Flow
 
 ```bash
+execute log display
 diagnose debug reset
 diagnose debug enable
+diagnose debug disable
 diagnose debug flow filter addr <IP>
+diagnose debug flow trace start 10
 diagnose debug flow trace start 100
 ```
 
@@ -238,6 +242,7 @@ diagnose sys session list
 
 ```bash
 execute reboot
+execute shutdown
 ```
 
 ---
@@ -248,6 +253,7 @@ execute reboot
 
 ```bash
 execute backup config flash backup.conf
+execute restore config flash backup.conf
 ```
 
 ## Show Full Configuration
@@ -255,7 +261,6 @@ execute backup config flash backup.conf
 ```bash
 show full-configuration
 ```
-
 ---
 
 # HA (High Availability) Commands
@@ -264,6 +269,7 @@ show full-configuration
 
 ```bash
 get system ha status
+diagnose sys ha status
 ```
 
 ## Force HA Failover
