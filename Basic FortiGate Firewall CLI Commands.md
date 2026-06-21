@@ -311,12 +311,11 @@ diagnose sys session stat
 | `abort`                   | Cancels current configuration changes |
 
 ## Notes
-- 'config' → enters configuration section
-- 'edit' → selects object or creates new object
-- 'set' → changes values
-- 'next' → saves current object
-- 'end' → exits configuration mode
-
+- `config` → enters configuration section
+- `edit` → selects object or creates new object
+- `set` → changes values
+- `next` → saves current object
+- `end` → exits configuration mode
 
 ---
 
